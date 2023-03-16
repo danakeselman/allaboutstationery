@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;	
+box-sizing: border-box;	
+}
+
+h1{
+	position: absolute;
+	left: 640px;
+}
+
+body{
+	font-family: 'Nanum Pen Script', cursive; 
+	min-height: 100vh;
+	background: rgba(252,224,185,1.00);
+}
+
+nav{
+ background: rgba(246,207,153,1.00);
+ height: 60px; 
+ width: 100%;	
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color: black;
+	font-size: 20px;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+.logo:hover{
+	background:rgba(214,168,101,1.00);
+	transition: .5s;
+	
+}
+a.active, a:hover{
+	background:rgba(214,168,101,1.00);
+	transition: .5s;
+}
+
+*{
+box-sizing: border-box;
+}
+
+.left {
+	float: left;
+	width: 80%;
+	padding: 5px;
+}
+
+.right {
+	position: absolute;
+	width: 70%;
+	top: 70px;
+	left: 550px;
+	float: left;
+	padding:5px;
+}
+
+.text{
+	font-size: 40px;
+	position: relative;
+	top: 190px;
+	left: -340px;
+	line-height:normal;
+}
+
+.divider{
+	background: rgba(240,208,160,1.00);
+	height: 200px;
+	width:100%;
+	position:absolute;
+	top:600px;
+	font-size: 40px;
+	text-align-last: center;
+	
+}
+h2{
+	position: absolute;
+	left: 200px;
+	bottom: 80px;
+}
+
+.half{
+background: rgba(255,246,226,1.00) ;
+	height:750px;
+	width:100%;
+	position: absolute;
+	top:800px;
+	text-align: center;
+	font-size: 35px;
+	z-index: -2;	
+}
+
+p1{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 185px;
+	top: 90px;
+}
+
+.brain{
+	z-index: 500;
+	position: absolute;
+	top: 800px;
+	
+	
+}
+
+.pen2{
+	position: relative;
+	left: 20px;
+	top: 720px;
+	bottom: 400px;
+	z-index: 400;
+}
+
+#accordian{
+	margin: 100px auto;
+	width: 600px;
+	position: absolute;
+	left: 150px;
+	top: 880px;
+}
+
+#accordian li{
+	list-style: none;
+	widows: 100%;
+	margin-bottom: 10px;
+	background: rgba(253,224,184,1.00);
+	padding: 10px;
+	border-radius: 4px;
+}
+
+#accordian li label{
+	padding: 10px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 20px; 
+	font-width: 700px; 
+	cursor: pointer;
+}
+	
+#accordian li label span{
+	transform: rotate(90deg);
+	font-size: 20px; 
+}
+
+#accordian label + input[type="radio"]{
+	display: none;
+}
+
+#accordian .content{
+	padding: 0 10px;
+	line-height: 20px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s;
+}
+
+#accordian label + input[type="radio"]:checked + .content{
+	max-height: 400px;
+}
+
+.notebook{
+	display: flex;
+	position: absolute;
+	top: 80px;
+	margin: 40px;
+	width: 320px;
+	height: 350px;
+}
+
+.person1:hover{
+	transform: rotate(5deg);
+	transition: transform 0.7s ease-in-out;
+}
+
+
+.pen{
+	display: flex;
+	position: absolute;
+	top: 90px;
+	left: 700px;
+	margin: 40px;
+	background-color: inherit;
+	
+}
+
+.pen:hover{
+	transform: rotate(360deg);
+	transition: transform 0.7s ease-in-out;
+}
+
+.ruler{
+	display: flex;
+	position: absolute;
+	top: 500px;
+	left: 350px;
+	margin: 40px;
+	background-color: inherit;
+}
+
+.ruler:hover{
+	transform: rotate(360deg);
+	transition: transform 0.7s ease-in-out;
+}
+
+.notebook:hover{
+	transform: rotate(360deg);
+	transition: transform 0.7s ease-in-out;
+}
+
+
+p4{
+	font-size: 100px;
+	position: absolute;
+	line-height: 70px;
+	top: 150px;
+	left: 450px;
+	text-align-last: justify;
+}
+
+.person1{
+	position: absolute;
+	top: 1370px;
+	width: 700px;
+	left: 200px;
+}
+
+.person2{
+	position: absolute;
+	top: 1370px;
+	width: 700px;
+	left: 500px;
+}
+
+
+.head{
+	position: absolute;
+	top: 1300px;
+	left: 200px;
+	font-size: 50px;
+}
+
+.person2:hover{
+	transform: rotate(5deg);
+	transition: transform 0.7s ease-in-out;
+}
